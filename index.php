@@ -2,7 +2,7 @@
 <main>
   
     
-        <h1 class="text-center">DASHBOARD</h1>
+        <h1 class="text-center">DASHBOARD blah  blah blah</h1>
     
         <br /><br />
         
