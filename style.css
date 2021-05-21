@@ -501,7 +501,35 @@ tr td:nth-child(1){
     color: #fff;
 }
 **/
-/*Profile Page */
+/*Profile Page and Form Pages*/
+.container2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 40px;
+
+}
+.sub-container2{
+    max-width: 1200px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 25px 30px;
+    border-radius: 6px;
+}
+.sub-container2-title{
+    font-size: 25px;
+    font-weight: 500;
+    position:relative;
+}
+.sub-container2-title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: #011343;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -509,7 +537,7 @@ tr td:nth-child(1){
 
 }
 .sub-container{
-    max-width: 700px;
+    max-width: 1000px;
     width: 100%;
     background-color: whitesmoke;
     padding: 25px 30px;
@@ -530,13 +558,13 @@ tr td:nth-child(1){
     background: #011343;
 }
 .sub-container form .user-details{
-    display: flex;
+   
     flex-wrap: wrap;
     justify-content: space-between;
 }
 form .user-details .input-box{
     margin-bottom: 15px;
-    width: 100%;
+    width: 60%;
 }
 .user-details .input-box .details{
     display: block;
@@ -586,6 +614,45 @@ form .active-detail .choices{
     -webkit-text-stroke-color: blue;
 }
 
+
+/*Update project and category*/
+.project{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    background-size: cover;
+    
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row.center{
+    justify-content: center;
+   
+}
+.proj-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.proj-col img{
+    width: 100%;
+
+    margin: 0 10px;
+    display: block;
+}
+/*Table codes*/
 
 .table-container{
     padding: 0 10%;
